@@ -283,7 +283,7 @@ __metadata:
     terser-webpack-plugin: "npm:^5.3.10"
     thread-loader: "npm:^4.0.2"
     ts-node: "npm:^10.9.2"
-    vite: "npm:^5.2.8"
+    vite: "npm:^5.4.6"
     webpack: "npm:^5.91.0"
     webpack-cli: "npm:^5.1.4"
     webpack-dev-server: "npm:^5.0.4"
@@ -389,7 +389,7 @@ __metadata:
     typescript: "npm:^5.4.5"
     unplugin-swc: "npm:^1.5.1"
     uuid: "npm:^10.0.0"
-    vite: "npm:^5.2.8"
+    vite: "npm:^5.4.6"
     vitest: "npm:2.0.5"
     zod: "npm:^3.22.4"
   peerDependencies:
@@ -752,7 +752,7 @@ __metadata:
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5.4.5"
     unplugin-swc: "npm:^1.4.5"
-    vite: "npm:^5.2.8"
+    vite: "npm:^5.4.6"
     vite-plugin-istanbul: "npm:^6.0.0"
     vite-plugin-static-copy: "npm:^1.0.2"
     vitest: "npm:2.0.5"
@@ -14227,7 +14227,7 @@ __metadata:
     nanoid: "npm:^5.0.7"
     react: "npm:^18.2.0"
     rxjs: "npm:^7.8.1"
-    vite: "npm:^5.2.8"
+    vite: "npm:^5.4.6"
     vite-plugin-dts: "npm:4.1.0"
     vitest: "npm:2.0.5"
     yjs: "patch:yjs@npm%3A13.6.18#~/.yarn/patches/yjs-npm-13.6.18-ad0d5f7c43.patch"
@@ -35685,7 +35685,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.0.0, vite@npm:^5.0.11, vite@npm:^5.2.8":
+"vite@npm:^5.0.0, vite@npm:^5.0.11":
   version: 5.4.3
   resolution: "vite@npm:5.4.3"
   dependencies:
@@ -35725,6 +35725,49 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: 10/864bf64fe57bd26b1527ea6d8dac2f4f8b834791f836590043463c0ded6a150a9407ffac6a859abc34ec013ecfcd23f405c20aa76f4ad99deab1176d5f017574
+  languageName: node
+  linkType: hard
+
+"vite@npm:^5.4.6":
+  version: 5.4.6
+  resolution: "vite@npm:5.4.6"
+  dependencies:
+    esbuild: "npm:^0.21.3"
+    fsevents: "npm:~2.3.3"
+    postcss: "npm:^8.4.43"
+    rollup: "npm:^4.20.0"
+  peerDependencies:
+    "@types/node": ^18.0.0 || >=20.0.0
+    less: "*"
+    lightningcss: ^1.21.0
+    sass: "*"
+    sass-embedded: "*"
+    stylus: "*"
+    sugarss: "*"
+    terser: ^5.4.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    less:
+      optional: true
+    lightningcss:
+      optional: true
+    sass:
+      optional: true
+    sass-embedded:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    terser:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 10/8489fa55c48675fc12b64bf7af58b5e2f8a11b2aebc63cb177861bd53dc196d7c496d6918f5a8c48828f51b6fe498166a1a2350334bbfaae10d015a0c71f1c77
   languageName: node
   linkType: hard
 
